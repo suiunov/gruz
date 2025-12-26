@@ -80,10 +80,10 @@ function App() {
             {/* Navigation */}
             <header className="bg-white shadow sticky top-0 z-50">
                 <div className="container mx-auto px-4 h-20 flex items-center justify-between">
-                    <div className="text-2xl font-bold text-blue-600 flex items-center gap-2">
+                    <a href="#" className="text-2xl font-bold text-blue-600 flex items-center gap-2 hover:text-blue-700 transition-colors">
                         <Truck size={32} />
                         <span>312-Cargo</span>
-                    </div>
+                    </a>
 
                     <nav className="hidden md:flex space-x-8 font-medium text-gray-700">
                         {navigation.map((item) => (
