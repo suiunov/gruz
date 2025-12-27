@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Phone, Mail, Clock, MapPin, Menu, X, Check, Truck, Package, ArrowRight, User, Globe } from 'lucide-react';
+import { Phone, Mail, Clock, MapPin, Menu, X, Check, Truck, Package, ArrowRight, User, Globe, Instagram } from 'lucide-react';
 import { translations } from './translations';
 
 function App() {
@@ -322,8 +322,8 @@ function App() {
                                     <a href="tel:+996700190100" className="hover:text-white transition-colors">+996 (700) 19-01-00</a>
                                 </li>
                                 <li className="flex items-center gap-3">
-                                    <Mail className="text-blue-500" size={20} />
-                                    info@gruz.kg
+                                    <Instagram className="text-blue-500" size={20} />
+                                    <a href="https://www.instagram.com/gruzoperevozki_bish/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">@gruzoperevozki_bish</a>
                                 </li>
                             </ul>
                         </div>
